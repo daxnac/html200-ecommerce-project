@@ -16,11 +16,8 @@ img {
 }
 
 .navbar-brand {
-  border: 1.3px solid #4E75C6;
-}
-
-.navbar-default {
-  background-color: #4E75C6;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 /***************** NAV *****************/
@@ -86,6 +83,12 @@ h3 {
   border: 1px solid rgb(217, 230, 242);
   border-radius: 5px;
   transition: box-shadow 0.3s ease-in-out;
+}
+
+.module img {
+  margin: auto;
+  display: block;
+  padding: .5rem;
 }
 
 .module:hover {
