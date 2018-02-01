@@ -35,7 +35,7 @@ var products = [
   {
     "name": "Multi Color",
     "price": 22.99,
-    "description": "The Who What Wear Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic",
+    "description": "The Who What Wear Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic",
     "imageTitle": "multi-color.jpeg"
   },
   {
@@ -52,3 +52,66 @@ var products = [
   }
 ]
 
+    
+    $(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $('#custom-nav').addClass('affix');
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $('.navbar-brand img').attr('src','newImage.jpg'); //change src
+    } else {
+        $('#custom-nav').removeClass('affix');
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $('.navbar-brand img').attr('src','OldImage.jpg')
+    }   
+});
+
+      
+    // List Grid View Function
+    $(document).ready(function() {
+        $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+        $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+    });
+
+    //Search filter function
+    $(document).ready(function(){
+      $("#input").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#products .item").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+       
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').focus()
+    })
+
+    //tooltip fuction
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    //scroll spy function
+    $(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({target: ".navbar", offset: 50});   
+
+      // Add smooth scrolling on all links inside the navbar
+      $("#navbar-collapse a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        } 
+      });
