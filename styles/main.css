@@ -10,12 +10,12 @@ p {
   padding: .6rem;
 }
 
-/* TODO: size images manually so this is not necessary */
 .navbar-brand img {
   max-width: 70%;
   height: auto;
 }
 
+/* TODO: size images manually so this is not necessary */
 img {
   max-width: 100%;
 }
