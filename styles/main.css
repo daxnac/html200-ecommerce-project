@@ -53,6 +53,21 @@ input[type="submit"] {
   color: white;
 }
 
+form {
+  padding: 5px;
+  text-align: center;
+}
+
+form label {
+  width: 100%;
+  color:  #4d4d4d;
+}
+
+#feedback {
+  text-align: center;
+  color: green;
+  font-size: 0.9em;
+}
 /*********** PRODUCTS SECTION ***********/
 
 h2 {
