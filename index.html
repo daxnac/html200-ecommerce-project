@@ -11,7 +11,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- TODO: insert your personal Font Awesome CDN link here -->
-  <script src="https://use.fontawesome.com/402c56e914.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/main.css">  
 </head>
@@ -47,7 +47,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="cart-info navbar-right">
-            <button type="button" class="btn btn-default navbar-btn">
+            <button type="button" class="btn btn-default navbar-btn" onclick="viewCart();">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             </button>
           </li>
@@ -78,9 +78,8 @@
           <img src="images/reversible-plaid-200w.jpg"  alt="reversible plaid scarf">
           <p>Two classic patterns in one great look: his supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
           <p>Price: $26.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
-          <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" class="btn btn-info" onclick="addCart('Reversible Plaid',26.99);">
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -88,9 +87,8 @@
           <img src="images/fringed-plaid-300w.jpg" alt="fringed plaid scarf">
           <p>Generously sized, extra soft and featuring a dazzling fringe, this scarf is rendered in a versatile gray, black and white plaid. Expertly beat the cold with style. 100% acrylic.</p>
           <p>Price: $18.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
-          <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <button type="button" class="btn btn-info" onclick="addCart('Fringed Plaid',18.99);">
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -98,9 +96,8 @@
           <img src="images/multi-color-300w.jpg" alt="multi color scarf">
           <p>The Who What Where Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic.</p>
           <p>Price: $22.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
           <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -108,9 +105,8 @@
           <img src="images/northern-lights-300w.jpg" alt="northern lights scarf">
           <p>Handmade by women in Agra, sales provide medical and educational support in this remote area of India. Crinkly 100% cotton.</p>
           <p>Price: $29.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
           <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -120,7 +116,7 @@
           <p>Price: $11.99</p>
           <button type="button" class="btn btn-primary">Details</button>
           <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -128,9 +124,8 @@
           <img src="images/twill-300w.jpg" alt="ashby twill scarf">
           <p>Faribault brings you the Ashby Twill Scarf in Natural. Woven with a 'broken' twill technique, the Ashby Twill Scarf has a slight zigzag texture. Made in USA, this timeless scarf is crafted with luxurious merino wool and finished with heather gray fringe. 100% Merino wool.</p>
           <p>Price: $70.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
           <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -138,9 +133,8 @@
           <img src="images/wool-cable-300w.jpg" alt="wool cable knit scarf">
           <p>Warm yourself with this women's natural cable knit scarf, crafted from 100% Merino wool. Imported.</p>
           <p>Price: $49.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
           <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
         <div class="module">
@@ -148,9 +142,8 @@
           <img src="images/etro-250w.jpg" alt="etro paisley print silk scarf">
           <p>Luxurious silk scarf with subtle paisley pattern. 100% silk.</p>
           <p>Price: $26.99</p>
-          <button type="button" class="btn btn-primary">Details</button>
           <button type="button" class="btn btn-info">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fas fa-cart-plus" aria-hidden="true"></i>
           </button>
         </div>
       </div>
