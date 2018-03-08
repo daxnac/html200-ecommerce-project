@@ -9,7 +9,7 @@ function getEmail() {
 
 var cart = []
 
-// Add items to cart
+// Add/Remove items to cart on button toggle
 function addCart(item,itemPrice) {
   var i = cart.indexOf(item)
   if (i == -1) {
@@ -21,7 +21,7 @@ function addCart(item,itemPrice) {
   }
 }
 
-// Display Items in Cart
+// Display Items in Cart when clicking cart button on navbar
 function viewCart() {
   console.log("====Items in Cart====")
   for (i = 0; i < cart.length; i++) {
