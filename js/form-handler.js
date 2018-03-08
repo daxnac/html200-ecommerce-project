@@ -8,7 +8,6 @@ function getEmail() {
 }
 
 var cart = []
-
 // Add/Remove items to cart on button toggle
 function addCart(item,itemPrice) {
   var i = cart.indexOf(item)
@@ -29,3 +28,8 @@ function viewCart() {
   }
   console.log("You have " + cart.length + " total items in your cart.")  
 }
+
+//initialize BS tooltip on add to cart button
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
