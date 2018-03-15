@@ -69,4 +69,11 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+
+Target Audience:
+
+Main users will be the general public, very diverse.  Mostly female with an age group of 18-35 years old. They will be mostly out in public, on the go and/or socilializing. I believe this is will be the main trigger or would attract these users go online to look for WWW products. Seeing the trend of apparel the public is wearing.
+
+These users will definitely be on mobile, based on he age group possibly on iPhones and Android devices.
+
+Also, due to the current chilly season, possible increased traffic from fall to early spring season.
