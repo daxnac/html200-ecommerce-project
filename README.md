@@ -69,4 +69,43 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+
+Target Audience:
+
+  - Main users will be the general public, very diverse.  Mostly female with an age group of 18-35 years old. They will be mostly out in public, on the go and/or socilializing. I believe this is will be the main trigger or would attract these users go online to look for WWW products. Users get attracted at the trend of apparel the public is wearing.
+
+  - These users will definitely be on mobile, based on he age group possibly on iPhones and Android devices. So expectation would be use of Safari and Chrome browsers.
+  
+  - Users will be a mix of low to high income bracket.
+
+Testing:
+
+  - Google Mobile Friendly Test
+      Results: Passed responsiveness test
+ 
+  - http://responsivedesignchecker.com/ - 
+      Results: Site responsive and formatting is looks good on different devices.
+      
+  - Real iPhone 6+/ Safari
+      Results: Speed, responsivenes and formatting are good.
+      
+  - Real Samsung Galaxy S8 / Chrome
+      Results: Same as iPhone, Speed, responsivenes and formatting are good.
+  
+  - https://www.webpagetest.org 
+      Results: A's, but with warning on the images. Images my need to be resized or optimized.
+      - NOTE: Also, due to the current chilly season, expect possible increased traffic from fall to early spring season.
+
+Site Design:
+
+  - Overall the site is responsive but adjustments can be made based on user audience and testing results. Specifically to be mobile first and user friendly. Adjust some of the sections. The product list should be the priority, once users go on the site, provide categorization/filters for easy browsing and sorting. Then next would be the Cart, should be easy to add/remove and purchase. 
+  
+  - Assuming these users will be out but want the product as soon as possible, maybe add In-store pickup at nearest store or these users could just be showrooming as well.
+  
+  - Add a module that would show deals or on sale products
+  
+  - Based on the real phone testing, some adjustment to the size of the buttons can be done as users touch.
+  
+  - Images will needs to be resize to have better load times.
+  
+  - Monitor site and plan make adjustments to accomodate for future traffic increase.
